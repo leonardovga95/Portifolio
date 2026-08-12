@@ -1,5 +1,14 @@
-/* .video {
-    width: 100px;
-    height: 50px;
-    padding: 10px;
-} */
+.videos {
+    display: flex;
+    gap: 10px;
+}
+
+.video {
+    margin: 0;
+}
+
+.video img {
+    width: 280px;
+    height: 280px;
+    object-fit: contain;
+}
