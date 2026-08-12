@@ -1,6 +1,5 @@
 .videos {
-    display: flex;
-    gap: 10px;
+    display: flex;;
 }
 
 .video {
@@ -11,4 +10,9 @@
     width: 280px;
     height: 280px;
     object-fit: contain;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
