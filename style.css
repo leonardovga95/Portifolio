@@ -100,3 +100,29 @@ h1{
     justify-content: center;
     margin: 10px;
 }
+
+@media (max-width: 768px) {
+    .videos{
+        grid-column: 1 / -1;
+        grid-row: 3 / 4;
+        display:inline-block;
+        padding: 20px;
+        width: auto;
+        justify-content: center;
+    }
+    .video img {
+        width: 200px;
+        height: 200px;
+    }
+    .videos button{
+        display: none;
+    }
+    .expSection {
+        grid-column: 1 / -1;
+        grid-row: 4 / 5;
+    }
+    .info{
+        grid-column: 1 / -1;
+        grid-row: 5 / 6;
+    }
+}
